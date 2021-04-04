@@ -1,0 +1,30 @@
+.footer {
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 15px;
+    width: 200px;
+    background-color: #f08a88;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.footer__rights {
+
+}
+
+.footer__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+}

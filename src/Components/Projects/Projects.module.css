@@ -1,0 +1,23 @@
+.projects {
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    background: #f08a88;
+    color: white;
+
+}
+
+.project__title {
+
+}
+
+.projects__item {
+    display: flex;
+    column-gap: 30px;
+}
+
+@media (max-width: 550px) {
+    .projects__item {
+        flex-direction: column;
+    }
+}

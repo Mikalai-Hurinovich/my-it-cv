@@ -1,0 +1,19 @@
+.container {
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 30px;
+
+}
+
+@media (max-width: 550px) {
+    .skills {
+        flex-direction: column;
+    }
+}
+
