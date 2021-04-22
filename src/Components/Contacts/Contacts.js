@@ -9,10 +9,10 @@ const Contacts = () => {
                 <input className={s.input} type="text"/>
                 <input className={s.input} type="text"/>
                 <textarea className={s.textarea} placeholder={'Some text here...'}></textarea>
-                <a href="#">GitHub</a>
-                <a href="#">Telegram</a>
+                <a href="/">GitHub</a>
+                <a href="/">Telegram</a>
             </div>
-            <button>Send</button>
+            <button className={s.send}>Send</button>
         </div>
     );
 };
