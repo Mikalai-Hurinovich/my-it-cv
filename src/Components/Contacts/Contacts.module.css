@@ -25,13 +25,13 @@ button {
     padding: 5px 10px;
     border-radius: 10px;
     margin-top: 10px;
-    width: 30%;
+    max-width: 400px;
 }
 
 .textarea {
     padding: 10px;
     border-radius: 10px;
-    width: 30%;
+    max-width: 300px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -43,4 +43,13 @@ button {
 .send:hover {
     box-shadow: 0px 0px 0px 2px #e20bbe;
     transition: box-shadow 0.3s linear;
+}
+
+img {
+    width: 30px;
+}
+
+.form__contacts {
+    display: flex;
+    column-gap: 30px;
 }
