@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-it-cv/static/css/main.d7aca942.chunk.css",
+    "main.js": "/my-it-cv/static/js/main.d820f14f.chunk.js",
+    "main.js.map": "/my-it-cv/static/js/main.d820f14f.chunk.js.map",
+    "runtime-main.js": "/my-it-cv/static/js/runtime-main.c20cf5e8.js",
+    "runtime-main.js.map": "/my-it-cv/static/js/runtime-main.c20cf5e8.js.map",
+    "static/js/2.e926a85e.chunk.js": "/my-it-cv/static/js/2.e926a85e.chunk.js",
+    "static/js/2.e926a85e.chunk.js.map": "/my-it-cv/static/js/2.e926a85e.chunk.js.map",
+    "static/js/3.334051b9.chunk.js": "/my-it-cv/static/js/3.334051b9.chunk.js",
+    "static/js/3.334051b9.chunk.js.map": "/my-it-cv/static/js/3.334051b9.chunk.js.map",
+    "index.html": "/my-it-cv/index.html",
+    "static/css/main.d7aca942.chunk.css.map": "/my-it-cv/static/css/main.d7aca942.chunk.css.map",
+    "static/js/2.e926a85e.chunk.js.LICENSE.txt": "/my-it-cv/static/js/2.e926a85e.chunk.js.LICENSE.txt",
+    "static/media/github.f18cf043.png": "/my-it-cv/static/media/github.f18cf043.png",
+    "static/media/telegram.d098e235.png": "/my-it-cv/static/media/telegram.d098e235.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c20cf5e8.js",
+    "static/js/2.e926a85e.chunk.js",
+    "static/css/main.d7aca942.chunk.css",
+    "static/js/main.d820f14f.chunk.js"
+  ]
+}
