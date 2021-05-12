@@ -12,7 +12,7 @@ button {
     margin-top: 20px;
     padding: 15px;
     width: 200px;
-    background-color: #f08a88;
+    background-color: var(--color-background);
     border-radius: 10px;
     font-size: 16px;
 }
@@ -27,4 +27,14 @@ button {
     justify-content: center;
     width: 300px;
     height: 100px;
+}
+
+img {
+    width: 30px;
+}
+
+.footer__contacts {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
 }

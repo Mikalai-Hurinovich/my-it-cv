@@ -2,14 +2,14 @@
     padding: 15px;
     text-align: center;
     font-size: 30px;
-    background-color: #f08a88;
+    background-color: var(--color-background);
 }
 
 button {
     margin-top: 20px;
     padding: 15px;
     width: 200px;
-    background-color: white;
+    background-color: var(--color-background-cecond);
     border-radius: 10px;
     font-size: 16px;
 }
@@ -26,14 +26,16 @@ button {
     border-radius: 10px;
     margin-top: 10px;
     max-width: 400px;
+    width: 100%;
 }
 
 .textarea {
     padding: 10px;
     border-radius: 10px;
-    max-width: 300px;
+    max-width: 400px;
     margin-top: 10px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .send {
@@ -41,15 +43,8 @@ button {
 }
 
 .send:hover {
-    box-shadow: 0px 0px 0px 2px #e20bbe;
+    box-shadow: 0 0 0 2px #e20bbe;
     transition: box-shadow 0.3s linear;
 }
 
-img {
-    width: 30px;
-}
 
-.form__contacts {
-    display: flex;
-    column-gap: 30px;
-}

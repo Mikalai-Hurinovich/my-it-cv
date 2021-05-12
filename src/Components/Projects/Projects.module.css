@@ -2,9 +2,9 @@
     padding: 15px;
     margin-top: 20px;
     text-align: center;
-    background: #f08a88;
-    color: white;
-
+    background: var(--color-background);
+    color: var(--color-chocolate);
+    flex-wrap: wrap;
 }
 
 .project__title {
@@ -12,11 +12,12 @@
 }
 
 .projects__item {
+    padding: 15px;
     display: flex;
     column-gap: 30px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 600px) {
     .projects__item {
         flex-direction: column;
     }
