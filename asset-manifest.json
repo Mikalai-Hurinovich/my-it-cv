@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/my-it-cv/static/css/main.d7aca942.chunk.css",
-    "main.js": "/my-it-cv/static/js/main.d820f14f.chunk.js",
-    "main.js.map": "/my-it-cv/static/js/main.d820f14f.chunk.js.map",
-    "runtime-main.js": "/my-it-cv/static/js/runtime-main.c20cf5e8.js",
-    "runtime-main.js.map": "/my-it-cv/static/js/runtime-main.c20cf5e8.js.map",
-    "static/js/2.e926a85e.chunk.js": "/my-it-cv/static/js/2.e926a85e.chunk.js",
-    "static/js/2.e926a85e.chunk.js.map": "/my-it-cv/static/js/2.e926a85e.chunk.js.map",
-    "static/js/3.334051b9.chunk.js": "/my-it-cv/static/js/3.334051b9.chunk.js",
-    "static/js/3.334051b9.chunk.js.map": "/my-it-cv/static/js/3.334051b9.chunk.js.map",
+    "main.css": "/my-it-cv/static/css/main.574ec3bd.chunk.css",
+    "main.js": "/my-it-cv/static/js/main.ddc9a63e.chunk.js",
+    "main.js.map": "/my-it-cv/static/js/main.ddc9a63e.chunk.js.map",
+    "runtime-main.js": "/my-it-cv/static/js/runtime-main.1fe88f6e.js",
+    "runtime-main.js.map": "/my-it-cv/static/js/runtime-main.1fe88f6e.js.map",
+    "static/js/2.92bb4e0f.chunk.js": "/my-it-cv/static/js/2.92bb4e0f.chunk.js",
+    "static/js/2.92bb4e0f.chunk.js.map": "/my-it-cv/static/js/2.92bb4e0f.chunk.js.map",
+    "static/js/3.ae1a6f2c.chunk.js": "/my-it-cv/static/js/3.ae1a6f2c.chunk.js",
+    "static/js/3.ae1a6f2c.chunk.js.map": "/my-it-cv/static/js/3.ae1a6f2c.chunk.js.map",
     "index.html": "/my-it-cv/index.html",
-    "static/css/main.d7aca942.chunk.css.map": "/my-it-cv/static/css/main.d7aca942.chunk.css.map",
-    "static/js/2.e926a85e.chunk.js.LICENSE.txt": "/my-it-cv/static/js/2.e926a85e.chunk.js.LICENSE.txt",
+    "static/css/main.574ec3bd.chunk.css.map": "/my-it-cv/static/css/main.574ec3bd.chunk.css.map",
+    "static/js/2.92bb4e0f.chunk.js.LICENSE.txt": "/my-it-cv/static/js/2.92bb4e0f.chunk.js.LICENSE.txt",
+    "static/media/Social-Networking-Network.4daf99e0.jpg": "/my-it-cv/static/media/Social-Networking-Network.4daf99e0.jpg",
+    "static/media/TodoList.e5d9f279.png": "/my-it-cv/static/media/TodoList.e5d9f279.png",
+    "static/media/covid.a24ef037.png": "/my-it-cv/static/media/covid.a24ef037.png",
     "static/media/github.f18cf043.png": "/my-it-cv/static/media/github.f18cf043.png",
     "static/media/telegram.d098e235.png": "/my-it-cv/static/media/telegram.d098e235.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c20cf5e8.js",
-    "static/js/2.e926a85e.chunk.js",
-    "static/css/main.d7aca942.chunk.css",
-    "static/js/main.d820f14f.chunk.js"
+    "static/js/runtime-main.1fe88f6e.js",
+    "static/js/2.92bb4e0f.chunk.js",
+    "static/css/main.574ec3bd.chunk.css",
+    "static/js/main.ddc9a63e.chunk.js"
   ]
 }
