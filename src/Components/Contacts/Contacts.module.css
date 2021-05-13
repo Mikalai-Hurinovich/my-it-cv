@@ -43,7 +43,7 @@ button {
 }
 
 .send:hover {
-    box-shadow: 0 0 0 2px #e20bbe;
+    box-shadow: 0 0 0 2px var(--color-pumpkin);
     transition: box-shadow 0.3s linear;
 }
 

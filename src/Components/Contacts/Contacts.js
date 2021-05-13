@@ -1,10 +1,11 @@
 import React from 'react';
 import s from './Contacts.module.css'
+import Title from "../../common/Components/Title/Title";
 
 const Contacts = () => {
     return (
         <div className={s.container}>
-            <h2>MY CONTACTS</h2>
+            <Title title={'my contacts'}/>
             <form className={s.form}>
                 <input className={s.input} type="text"/>
                 <input className={s.input} type="text"/>

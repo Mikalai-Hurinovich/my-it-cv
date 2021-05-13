@@ -1,14 +1,21 @@
-.project__text {
-    margin-top: 10px;
+.project__description {
+    line-height: 1;
+    font-weight: 400;
+    font-size: 14px;
     text-align: left;
 }
 
 .project__title {
-    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 10px 0 5px;
+    line-height: 1.2;
+
 }
 
 .project {
     height: 100%;
+    margin-bottom: 30px;
 }
 
 .project__wrapper {
@@ -24,6 +31,8 @@
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
+    right: 0;
     min-width: 100%;
     min-height: 100%;
     background: white;
@@ -31,10 +40,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .project__preview button {
     width: 50%;
     padding: 10px 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .project__preview {
+
+    }
+}
+

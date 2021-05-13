@@ -1,10 +1,12 @@
 import React from 'react';
 import Skills from "./Skills/Skills";
-import  s from './AboutMe.module.css'
+import s from './AboutMe.module.css'
+import Title from "../../common/Components/Title/Title";
+
 const AboutMe = () => {
     return (
         <div className={s.container}>
-            <h2 className={s.title}>My Skills</h2>
+            <Title title={'skills'}/>
             <div className={s.skills}>
                 <Skills/>
                 <Skills/>

@@ -1,10 +1,11 @@
 import React from 'react';
 import s from './RemoteWork.module.css'
+import Title from "../../common/Components/Title/Title";
 
 const RemoteWork = () => {
     return (
         <div className={s.container}>
-            <h2> I'm available for Freelance</h2>
+            <Title title={'I\'m available for Freelance'}/>
             <button>Hire me!</button>
         </div>
     );
