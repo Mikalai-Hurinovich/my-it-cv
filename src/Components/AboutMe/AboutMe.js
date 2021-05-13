@@ -8,9 +8,20 @@ const AboutMe = () => {
         <div className={s.container}>
             <Title title={'skills'}/>
             <div className={s.skills}>
-                <Skills/>
-                <Skills/>
-                <Skills/>
+                <Skills title={'JavaScript'}
+                        description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, tempora?'}/>
+                <Skills title={'React'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.' +
+                ' Consequuntur, tempora?'}/>
+                <Skills title={'HTML & CSS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.' +
+                ' Consequuntur, tempora?'}/>
+                <Skills title={'HTML & CSS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.' +
+                ' Consequuntur, tempora?'}/>
+                <Skills title={'HTML & CSS'}
+                        description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.' +
+                        ' Consequuntur, tempora?'}/>
+                <Skills title={'HTML & CSS'}
+                        description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.' +
+                        ' Consequuntur, tempora?'}/>
             </div>
         </div>
     );

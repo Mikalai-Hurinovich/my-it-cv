@@ -68,8 +68,8 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------*/
 .App {
     font-family: 'Poppins', sans-serif;
-    --color-background: #FFA577;
-    --color-background-cecond: black;
+    --color-background-melon: #FFA577;
+    --color-background-black: black;
     --color-chocolate: #423633;
     color: var(--color-chocolate);
     --color-pumpkin: #D55448

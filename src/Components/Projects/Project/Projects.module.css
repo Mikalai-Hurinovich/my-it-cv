@@ -13,45 +13,33 @@
 
 }
 
-.project {
-    height: 100%;
-    margin-bottom: 30px;
-}
-
-.project__wrapper {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    padding-bottom: 100%;
+.project__card {
+    width: 350px;
+    margin: 20px auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.project__preview {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    min-width: 100%;
-    min-height: 100%;
-    background: white;
+.project__img {
+    min-width: 300px;
+    min-height: 300px;
     border: 1px solid #000;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    /*background: white no-repeat center;*/
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-.project__preview button {
+.project__card_button {
     width: 50%;
     padding: 10px 20px;
 }
 
 @media screen and (max-width: 600px) {
-    .project__preview {
+    .project__img {
 
     }
 }
