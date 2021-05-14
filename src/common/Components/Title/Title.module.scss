@@ -1,13 +1,12 @@
 .title {
-    margin-bottom: 30px;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    letter-spacing: 5px;
-    position: relative;
-}
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  position: relative;
 
-.title::after {
+  &::after {
     content: '';
     position: absolute;
     background: var(--color-pumpkin);
@@ -15,6 +14,10 @@
     height: 2px;
     margin: 15px auto;
     transform: translate(-50%, 50%);
+  }
+
 }
+
+
 
 

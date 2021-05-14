@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Footer.module.css'
+import s from './Footer.module.scss'
 import github from "../../assets/img/icons/github.png";
 import telegram from "../../assets/img/icons/telegram.png";
 

@@ -1,0 +1,16 @@
+.projects {
+  padding: 30px 15px;
+  text-align: center;
+  background: var(--color-background-melon);
+  color: var(--color-chocolate);
+
+  .project__items {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+
+
+

@@ -1,0 +1,32 @@
+.header {
+  height: 80px;
+  background-color: var(--color-pumpkin);
+  font-size: 1.2em;
+  color: var(--color-chocolate);
+
+  .container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    & a {
+      color: var(--color-chocolate);
+      margin-right: 20px;
+      padding: 2px 5px;
+      border-radius: 5px;
+
+      &:hover {
+        box-shadow: 0 0 0 2px var(--color-background-melon);
+        transition: box-shadow 0.3s linear;
+      }
+    }
+
+
+  }
+
+}
+
+
+
+

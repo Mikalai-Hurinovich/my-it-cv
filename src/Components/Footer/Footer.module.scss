@@ -1,0 +1,27 @@
+.footer {
+  padding: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .footer__contacts {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+
+    img {
+      width: 30px;
+    }
+  }
+
+  .footer__rights {
+
+  }
+}
+
+
+
+

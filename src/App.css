@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6 {
     --color-background-black: black;
     --color-chocolate: #423633;
     color: var(--color-chocolate);
-    --color-pumpkin: #D55448
+    --color-pumpkin: #D55448;
+    --color-white: #fff;
 
 }

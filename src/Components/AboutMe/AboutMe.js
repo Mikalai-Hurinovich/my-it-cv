@@ -1,6 +1,6 @@
 import React from 'react';
 import Skills from "./Skills/Skills";
-import s from './AboutMe.module.css'
+import s from './AboutMe.module.scss'
 import Title from "../../common/Components/Title/Title";
 
 const AboutMe = () => {
