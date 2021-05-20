@@ -11,7 +11,7 @@ const AboutMe = () => {
                 <Skills title={'JavaScript'}
                         description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, tempora?'}/>
                 <Skills title={'React'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.' +
-                ' Consequuntur, tempora?'}/>
+                ' Consequuntur'}/>
                 <Skills title={'HTML & CSS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.' +
                 ' Consequuntur, tempora?'}/>
                 <Skills title={'HTML & CSS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.' +
