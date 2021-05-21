@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Footer.module.scss'
-import github from "../../assets/img/icons/github.png";
-import telegram from "../../assets/img/icons/telegram.png";
+import github from "../../assets/img/icons/contacts/github.png";
+import telegram from "../../assets/img/icons/contacts/telegram.png";
 
 const Footer = () => {
     return (

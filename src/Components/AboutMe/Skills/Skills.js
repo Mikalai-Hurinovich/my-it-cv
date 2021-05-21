@@ -4,9 +4,9 @@ import s from './Skills.module.scss'
 const Skills = (props) => {
     return (
         <div className={s.skill}>
-            <div className={s.skill__icon}></div>
-            <h3 className={s.skill__title}>{props.title}</h3>
-            <span className={s.skill__text}>{props.description}</span>
+            <div className={s.skill__icon}>
+                <img className={s.img} src={props.icon} alt="skillIcon"/>
+            </div>
         </div>
     );
 };

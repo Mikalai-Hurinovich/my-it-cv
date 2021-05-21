@@ -7,14 +7,14 @@
   align-items: center;
   column-gap: 10px;
 
-  .skill__icon {
+  .img {
     width: 100px;
     height: 100px;
-    background: var(--color-pumpkin);
   }
 
   .skill__title {
-
+    color: var(--color-chocolate);
+    font-size: 1.5rem;
   }
 
   .skill__text {

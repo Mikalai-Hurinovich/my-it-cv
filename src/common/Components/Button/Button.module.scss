@@ -1,13 +1,16 @@
 .button {
   margin-top: 20px;
   padding: 15px;
-  width: 100px;
+  max-width: 150px;
   background-color: var(--color-background-melon);
   border-radius: 10px;
   font-size: 16px;
   border: 1px solid var(--color-white);
   position: relative;
   z-index: 2;
+  color: var(--color-chocolate);
+  cursor: pointer;
+  transition: all 0.5s ease;
 
   &:hover {
     box-shadow: 0 0 0 1px var(--color-pumpkin);
