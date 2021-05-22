@@ -1,22 +1,22 @@
 .mainBlock {
   min-height: 100vh;
-  background: var(--color-background-melon);
   text-align: center;
+  background: var(--color-background-melon);
+  padding: 3rem 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 
   .container {
-    padding-top: 5vh;
-    max-width: 100%;
-    text-align: center;
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
-    margin: 0 auto;
 
     .mainBlock__photo {
       margin-bottom: 1.5rem;
 
       .profilePhoto {
-        width: 300px;
+        max-width: 250px;
         border-radius: 50%;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
         padding: .5rem;
@@ -29,20 +29,19 @@
       font-size: 2.5rem;
       text-align: center;
       line-height: 1.5;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
 
     .location {
       font-size: 2rem;
-      margin-bottom: 4rem;
+      margin-bottom: 3rem;
     }
 
     .button {
-      margin-bottom: 4rem;
+
+      //margin-bottom: 4rem;
     }
   }
-
-
 }
 
 

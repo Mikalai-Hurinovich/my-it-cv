@@ -3,6 +3,7 @@ import s from './Main.module.scss'
 import profilePhoto from './../../assets/img/personal/profilePhoto.png'
 import Button from "../../common/Components/Button/Button";
 
+
 const Main = () => {
     return (
         <div className={s.mainBlock}>
@@ -12,7 +13,7 @@ const Main = () => {
                 </div>
                 <div className={s.mainBlock__text}>
                     <span>Hi,</span>
-                    <h1>I am Mikalai Hurynovich</h1>
+                    <h1>I am Mikalai Hurynovich,</h1>
                     <p>Frontend Developer</p>
                 </div>
                 <div className={s.location}>based in Minsk, Belarus</div>
@@ -20,7 +21,6 @@ const Main = () => {
                     <Button title={'About Me'}></Button>
                 </div>
             </div>
-
         </div>
     );
 };
