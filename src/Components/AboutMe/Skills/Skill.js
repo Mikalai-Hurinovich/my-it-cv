@@ -1,14 +1,14 @@
 import React from 'react';
 import s from './Skills.module.scss'
 
-const Skills = (props) => {
+const Skill = (props) => {
     return (
         <div className={s.skill}>
             <div className={s.skill__icon}>
-                <img className={s.img} src={props.icon} alt="skillIcon"/>
+                <img title={props.title} className={s.img} src={props.icon} alt="skillIcon"/>
             </div>
         </div>
     );
 };
 
-export default Skills;
+export default Skill;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Skills from "./Skills/Skills";
+import Skill from "./Skills/Skill";
 import s from './AboutMe.module.scss'
 import Title from "../../common/Components/Title/Title";
 import js from '../../assets/img/icons/aboutMe/javascript.svg.png'
@@ -18,15 +18,15 @@ const AboutMe = () => {
         <div className={s.container}>
             <Title title={'skills'}/>
             <div className={s.skills}>
-                <Skills icon={HC}/>
-                <Skills icon={js}/>
-                <Skills icon={ts}/>
-                <Skills icon={react}/>
-                <Skills icon={redux}/>
-                <Skills icon={axios}/>
-                <Skills icon={git}/>
-                <Skills icon={jest}/>
-                <Skills icon={sb}/>
+                <Skill title={'HTML&CSS'} icon={HC}/>
+                <Skill title={'JavaScript'} icon={js}/>
+                <Skill title={'TypeScript'} icon={ts}/>
+                <Skill title={'React'} icon={react}/>
+                <Skill title={'Redux'} icon={redux}/>
+                <Skill title={'Axios'} icon={axios}/>
+                <Skill title={'Git'} icon={git}/>
+                <Skill title={'Jest'} icon={jest}/>
+                <Skill title={'Storybook'} icon={sb}/>
             </div>
         </div>
     );
