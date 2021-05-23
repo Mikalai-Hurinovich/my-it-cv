@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b93f3d56.chunk.css",
-    "main.js": "/portfolio/static/js/main.b1ebf3c2.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b1ebf3c2.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b5e9871f.chunk.css",
+    "main.js": "/portfolio/static/js/main.8aa5c3bf.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8aa5c3bf.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.22b755b1.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.22b755b1.js.map",
     "static/js/2.6b61304c.chunk.js": "/portfolio/static/js/2.6b61304c.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.bcc8d736.chunk.js": "/portfolio/static/js/3.bcc8d736.chunk.js",
     "static/js/3.bcc8d736.chunk.js.map": "/portfolio/static/js/3.bcc8d736.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.b93f3d56.chunk.css.map": "/portfolio/static/css/main.b93f3d56.chunk.css.map",
+    "static/css/main.b5e9871f.chunk.css.map": "/portfolio/static/css/main.b5e9871f.chunk.css.map",
     "static/js/2.6b61304c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6b61304c.chunk.js.LICENSE.txt",
     "static/media/Social-Networking-Network.4daf99e0.jpg": "/portfolio/static/media/Social-Networking-Network.4daf99e0.jpg",
     "static/media/TodoList.e5d9f279.png": "/portfolio/static/media/TodoList.e5d9f279.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.22b755b1.js",
     "static/js/2.6b61304c.chunk.js",
-    "static/css/main.b93f3d56.chunk.css",
-    "static/js/main.b1ebf3c2.chunk.js"
+    "static/css/main.b5e9871f.chunk.css",
+    "static/js/main.8aa5c3bf.chunk.js"
   ]
 }
