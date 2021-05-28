@@ -9,8 +9,8 @@
 
   .projectImg {
     border-radius: 5px;
-    min-width: 280px;
-    min-height: 280px;
+    width: 350px;
+    height: 350px;
     box-shadow: 0 0 10px var(--color-background-black);
     display: flex;
     justify-content: center;
@@ -71,6 +71,14 @@
   .projectCard {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .projectImg {
+    max-width: 250px;
+    max-height: 250px;
   }
 
 }
