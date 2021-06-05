@@ -4,17 +4,3 @@
   text-align: center;
   font-size: 30px;
 }
-
-button {
-  margin-top: 20px;
-  padding: 15px;
-  width: 200px;
-  background-color: var(--color-background-melon);
-  border-radius: 10px;
-  font-size: 16px;
-}
-
-button:hover {
-  box-shadow: 0 0 0 2px var(--color-pumpkin);
-  transition: box-shadow 0.3s linear;
-}

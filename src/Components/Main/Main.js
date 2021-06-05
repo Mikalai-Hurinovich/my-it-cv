@@ -20,7 +20,14 @@ const Main = () => {
                 <div className={s.button}>
                     <Button title={'About Me'}></Button>
                 </div>
+                <div className={s.scrollDown}>
+                    <div className={s.chevrons}>
+                        <div className={s.chevronDown}></div>
+                        <div className={s.chevronDown}></div>
+                    </div>
+                </div>
             </div>
+
         </div>
     );
 };

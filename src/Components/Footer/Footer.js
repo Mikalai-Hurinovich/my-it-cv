@@ -11,16 +11,16 @@ const Footer = () => {
             <h2 className={s.footer__title}>Hurinovich Mikalai</h2>
             <div className={s.footer__contacts}>
                 <a target="_blank" href="https://github.com/Mikalai-Hurinovich">
-                    <img src={github} alt="githubImg"/>
+                    <span>  <img src={github} alt="githubImg"/></span>
                 </a>
                 <a target="_blank" href="https://t.me/NikolaTeslavich">
-                    <img src={telegram} alt="telegramImg"/>
+                    <span><img src={telegram} alt="telegramImg"/></span>
                 </a>
                 <a target="_blank" href="https://www.codewars.com/users/Nikolajchik">
-                    <img src={cw} alt="codeWarsImg"/>
+                    <span><img src={cw} alt="codeWarsImg"/></span>
                 </a>
                 <a target="_blank" href="https://www.linkedin.com/in/mikalaihurynovich-6b69a71a3/">
-                    <img src={li} alt="linkedInImg"/>
+                    <span><img src={li} alt="linkedInImg"/></span>
                 </a>
             </div>
             <div className={s.footer__rights}>
