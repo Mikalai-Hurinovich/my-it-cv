@@ -1,3 +1,5 @@
+@import './src/common/Components/Button/Button.module';
+
 .container {
   margin: 1rem 0;
   padding: 2rem;
@@ -10,23 +12,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
 
-  .input {
-    padding: 5px 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    max-width: 400px;
-    width: 100%;
-  }
+    .input {
+      padding: 5px 10px;
+      border-radius: 10px;
+      margin-top: 10px;
+      max-width: 400px;
+      width: 100%;
+    }
 
-  .textarea {
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 400px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: 100%;
+    .textarea {
+      padding: 10px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    .formButton {
+      @extend .btn;
+    }
   }
 }
 

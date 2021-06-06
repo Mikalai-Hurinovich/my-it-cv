@@ -10,16 +10,19 @@ const Footer = () => {
         <div className={s.footer}>
             <h2 className={s.footer__title}>Hurinovich Mikalai</h2>
             <div className={s.footer__contacts}>
-                <a target="_blank" href="https://github.com/Mikalai-Hurinovich">
-                    <span>  <img src={github} alt="githubImg"/></span>
+                <a title={'Github'} className={'socialIcon'} target="_blank"
+                   href="https://github.com/Mikalai-Hurinovich">
+                    <span><img src={github} alt="githubImg"/></span>
                 </a>
-                <a target="_blank" href="https://t.me/NikolaTeslavich">
+                <a title={'Telegram'} className={'socialIcon'} target="_blank" href="https://t.me/NikolaTeslavich">
                     <span><img src={telegram} alt="telegramImg"/></span>
                 </a>
-                <a target="_blank" href="https://www.codewars.com/users/Nikolajchik">
+                <a title={'CodeWars'} className={'socialIcon'} target="_blank"
+                   href="https://www.codewars.com/users/Nikolajchik">
                     <span><img src={cw} alt="codeWarsImg"/></span>
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/in/mikalaihurynovich-6b69a71a3/">
+                <a title={'LinkedIn'} className={'socialIcon'} target="_blank"
+                   href="https://www.linkedin.com/in/mikalaihurynovich-6b69a71a3/">
                     <span><img src={li} alt="linkedInImg"/></span>
                 </a>
             </div>
