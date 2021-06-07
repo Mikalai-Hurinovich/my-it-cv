@@ -1,4 +1,7 @@
+@import "./src/common/Components/styles/styles";
+
 .mainBlock {
+  @extend .particles;
   min-height: 100vh;
   text-align: center;
   background: var(--color-background-melon);
@@ -7,20 +10,11 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  z-index: 10;
+  //z-index: 10;
 
-  .particles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    //opacity: 0.3;
-    z-index: 1;
-  }
 
   .container {
-    z-index: 10;
+    //z-index: 10;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +32,7 @@
     }
 
     .mainBlock__text {
-      z-index: 10;
+      //z-index: 10;
       font-weight: 700;
       font-size: 2.5rem;
       text-align: center;
@@ -59,7 +53,7 @@
 }
 
 .scrollDown {
-  z-index: 10;
+  //z-index: 10;
   margin-top: 100px;
   --color: white;
   --sizeX: 30px;

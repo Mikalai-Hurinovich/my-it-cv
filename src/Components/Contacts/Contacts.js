@@ -1,17 +1,23 @@
 import React from 'react';
 import s from './Contacts.module.scss'
 import Title from "../../common/Components/Title/Title";
+import Particles from "react-particles-js";
+import {params} from "../Main/Main";
+import Fade from "react-reveal/Fade";
 
 const Contacts = () => {
     return (
         <div className={s.container}>
+            <Particles className={s.particles} params={params}/>
             <Title title={'my contacts'}/>
-            <form className={s.form}>
-                <input className={s.input} type="text" placeholder={'Name'}/>
-                <input className={s.input} type="text" placeholder={'E-mail'}/>
-                <textarea className={s.textarea} placeholder={'Your message here...'}></textarea>
-                <button className={s.formButton} type={"submit"} title={'Send'}><span>Submit</span></button>
-            </form>
+            <Fade>
+                <form className={s.form}>
+                    <input className={s.input} type="text" placeholder={'Name'}/>
+                    <input className={s.input} type="text" placeholder={'E-mail'}/>
+                    <textarea className={s.textarea} placeholder={'Your message here...'}></textarea>
+                    <button className={s.formButton} type={"submit"} title={'Send'}><span>Submit</span></button>
+                </form>
+            </Fade>
         </div>
     );
 };

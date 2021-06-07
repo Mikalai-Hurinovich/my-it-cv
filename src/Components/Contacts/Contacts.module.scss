@@ -1,11 +1,14 @@
 @import './src/common/Components/Button/Button.module';
+@import "./src/common/Components/styles/styles";
 
 .container {
+  @extend .particles;
   margin: 1rem 0;
   padding: 2rem;
   text-align: center;
   font-size: 30px;
   background-color: var(--color-background-melon);
+  position: relative;
 
   .form {
     display: flex;

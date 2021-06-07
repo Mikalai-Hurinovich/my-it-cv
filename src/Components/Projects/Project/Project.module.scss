@@ -6,6 +6,11 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+  //z-index: 10;
+
+  //.projectButton {
+  //  //z-index: 10;
+  //}
 
   .projectImg {
     border-radius: 5px;
@@ -19,6 +24,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    //z-index: 10;
 
     &::before {
       position: absolute;
