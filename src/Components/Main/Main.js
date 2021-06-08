@@ -64,7 +64,7 @@ const Main = () => {
             <Particles className={s.particles} params={params}/>
 
             <div className={s.container}>
-                <Fade top>
+                <Fade>
                     <div className={s.mainBlock__photo}>
                         <img className={s.profilePhoto} src={profilePhoto} alt="profilePhoto"/>
                     </div>
