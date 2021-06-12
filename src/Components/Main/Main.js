@@ -4,7 +4,7 @@ import profilePhoto from './../../assets/img/personal/profilePhoto.png'
 import Button from "../../common/Components/Button/Button";
 import Particles from 'react-particles-js';
 import Fade from 'react-reveal/Fade';
-import Reveal from "react-reveal/Reveal";
+import ReactTypingEffect from 'react-typing-effect';
 
 export const params = {
     "particles": {
@@ -60,9 +60,8 @@ export const params = {
 
 const Main = () => {
     return (
-        <div className={s.mainBlock}>
+        <div className={s.mainBlock} id={'main'}>
             <Particles className={s.particles} params={params}/>
-
             <div className={s.container}>
                 <Fade>
                     <div className={s.mainBlock__photo}>
@@ -72,7 +71,14 @@ const Main = () => {
                 <Fade>
                     <div className={s.mainBlock__text}>
                         <span>Hi,</span>
-                        <h1>I am Mikalai Hurynovich,</h1>
+                        <h1>
+                            <ReactTypingEffect
+                                text={'I\'m Mikalai Hurynovich'}
+                                speed={'100'}
+                                typingDelay={'1000'}
+                                eraseSpeed={'150'}>
+                            </ReactTypingEffect>
+                        </h1>
                         <p>Frontend Developer</p>
                     </div>
                     <div className={s.location}>based in Minsk, Belarus</div>

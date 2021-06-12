@@ -16,7 +16,7 @@ import Fade from "react-reveal/Fade";
 
 const AboutMe = () => {
     return (
-        <div className={s.container}>
+        <div className={s.container} id={'skills'}>
             <Title title={'skills'}/>
             <Fade>
                 <div className={s.skills}>

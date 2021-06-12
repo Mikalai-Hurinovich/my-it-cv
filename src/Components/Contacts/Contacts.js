@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade";
 
 const Contacts = () => {
     return (
-        <div className={s.container}>
+        <div className={s.container} id={'contacts'}>
             <Particles className={s.particles} params={params}/>
             <Title title={'my contacts'}/>
             <Fade>

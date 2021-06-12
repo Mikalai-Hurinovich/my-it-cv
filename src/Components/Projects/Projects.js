@@ -25,7 +25,7 @@ const Projects = () => {
     };
 
     return (
-        <div className={s.projects}>
+        <div className={s.projects} id={'projects'}>
             <Particles className={s.particles} params={params}/>
             <Fade>
                 <Title title={'my projects'}/>

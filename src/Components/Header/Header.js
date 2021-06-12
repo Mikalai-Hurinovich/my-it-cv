@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Header.module.scss'
+import {Link} from "react-scroll"
 
 const Header = () => {
     return (
@@ -9,10 +10,26 @@ const Header = () => {
                 <label className={s.navToggle} htmlFor="navToggle"></label>
                 <nav className={s.nav} id="nav">
                     <ul className={s.nav__items}>
-                        <li><a className={s.nav__link} href="/" data-scroll="#about">About Me</a></li>
-                        <li><a className={s.nav__link} href="/" data-scroll="#service">Skills</a></li>
-                        <li><a className={s.nav__link} href="/" data-scroll="#work">Projects</a></li>
-                        <li><a className={s.nav__link} href="/" data-scroll="#footer">Contacts</a></li>
+                        <li>
+                            <Link activeClass={s.nav__link} to={'aboutMe'} spy={true} smooth={true}>
+                                About Me
+                            </Link>
+                        </li>
+                        <li>
+                            <Link activeClass={s.nav__link} to={'skills'} spy={true} smooth={true}>
+                                Skills
+                            </Link>
+                        </li>
+                        <li>
+                            <Link activeClass={s.nav__link} to={'projects'} spy={true} smooth={true}>
+                                Projects
+                            </Link>
+                        </li>
+                        <li>
+                            <Link activeClass={s.nav__link} to={'contacts'} spy={true} smooth={true}>
+                                Contacts
+                            </Link>
+                        </li>
                     </ul>
                 </nav>
             </div>
