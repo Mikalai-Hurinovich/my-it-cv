@@ -3,6 +3,10 @@
   background-color: var(--color-pumpkin);
   font-size: 1.2em;
   color: var(--color-chocolate);
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+
 
   .container {
     height: 80px;
