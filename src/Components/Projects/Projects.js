@@ -32,13 +32,17 @@ const Projects = () => {
                 <div className={s.project__items}>
                     <Project title={'Social Network'} style={socialNetwork}
                              technologies={'React/Redux/TypeScript/ReduxForm/Axios'}
-                             description={'Social network. Invite friends. Communicate.'}/>
+                             description={'Social network. Invite friends. Communicate.'}
+                             link={'https://mikalai-hurinovich.github.io/ToDoList'}/>
                     <Project title={'Covid Dashboard'} style={covid} technologies={'HTML/CSS/JavaScript'}
-                             description={'Covid dashboard, schedule of covid cases, deaths, recovered.'}/>
+                             description={'Covid dashboard, schedule of covid cases, deaths, recovered.'}
+                             link={'https://rolling-scopes-school.github.io/mikalai-hurinovich-JS2020Q3/covid-dashboard/'}/>
                     <Project title={'TodoList'} style={todoList} technologies={'React/Redux/TypeScript/Axios'}
-                             description={'Simple Todolist project.'}/>
+                             description={'Simple Todolist project.'}
+                             link={'https://mikalai-hurinovich.github.io/ToDoList'}/>
                     <Project title={'Cozy House'} style={shelter} technologies={'HTML/CSS/JavaScript'}
-                             description={'Shelter "Cozy House", where pets are looking for a new home.'}/>
+                             description={'Shelter "Cozy House", where pets are looking for a new home.'}
+                             link={'https://rolling-scopes-school.github.io/mikalai-hurinovich-JS2020Q3/shelter/pages/main/index.html'}/>
                 </div>
             </Fade>
         </div>

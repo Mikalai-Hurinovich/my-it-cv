@@ -14,7 +14,7 @@
   padding: 0;
   border: none;
 
-  & span {
+  & a {
     position: relative;
     display: block;
     width: 100%;
@@ -25,7 +25,7 @@
   &:after {
     position: absolute;
     content: "";
-    height: 0%;
+    height: 0;
     width: 2px;
     background: var(--color-pumpkin);
   }
@@ -57,34 +57,34 @@
     height: 100%;
   }
 
-  & span:before,
-  & span:after {
+  & a:before,
+  & a:after {
     position: absolute;
     content: "";
     background: var(--color-pumpkin);
   }
 
-  & span:before {
+  & a:before {
     left: 0;
     top: 0;
-    width: 0%;
+    width: 0;
     height: 2px;
     transition: all 500ms ease;
   }
 
-  & span:after {
+  & a:after {
     right: 0;
     bottom: 0;
-    width: 0%;
+    width: 0;
     height: 2px;
     transition: all 500ms ease;
   }
 
-  & span:hover:before {
+  & a:hover:before {
     width: 100%;
   }
 
-  & span:hover:after {
+  & a:hover:after {
     width: 100%;
   }
 }

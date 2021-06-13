@@ -15,7 +15,9 @@ const Contacts = () => {
                     <input className={s.input} type="text" placeholder={'Name'}/>
                     <input className={s.input} type="text" placeholder={'E-mail'}/>
                     <textarea className={s.textarea} placeholder={'Your message here...'}></textarea>
-                    <button className={s.formButton} type={"submit"} title={'Send'}><span>Submit</span></button>
+                    <button className={s.formButton} type={"submit"} title={'Send'}>
+                        <a>Submit</a>
+                    </button>
                 </form>
             </Fade>
         </div>

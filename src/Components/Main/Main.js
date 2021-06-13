@@ -83,7 +83,7 @@ const Main = () => {
                     </div>
                     <div className={s.location}>based in Minsk, Belarus</div>
                     <div className={s.button}>
-                        <Button title={'About Me'}></Button>
+                        <Button title={'About Me'}/>
                     </div>
                     <div className={s.scrollDown}>
                         <div className={s.chevrons}>

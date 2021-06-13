@@ -5,7 +5,7 @@ const Button = (props) => {
     return (
         <div className={s.button__wrapper}>
             <button className={`${s.customButton} ${s.btn}`}>
-                <span>{props.title}</span>
+                <a href={props.link} target='_blank' rel={'noreferrer'}>{props.title}</a>
             </button>
         </div>
     );

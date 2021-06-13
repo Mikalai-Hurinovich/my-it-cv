@@ -20,17 +20,28 @@ const Header = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link activeClass={s.nav__link} to={'skills'} spy={true} offset={-80} smooth={true}>
+                            <Link activeClass={s.nav__link}
+                                  to={'skills'}
+                                  spy={true}
+                                  offset={-80}
+                                  smooth={true}>
                                 Skills
                             </Link>
                         </li>
                         <li>
-                            <Link activeClass={s.nav__link} to={'projects'} spy={true} offset={-80} smooth={true}>
+                            <Link activeClass={s.nav__link}
+                                  to={'projects'}
+                                  spy={true}
+                                  offset={-80}
+                                  smooth={true}>
                                 Projects
                             </Link>
                         </li>
                         <li>
-                            <Link activeClass={s.nav__link} to={'contacts'} spy={true} smooth={true}>
+                            <Link activeClass={s.nav__link}
+                                  to={'contacts'}
+                                  spy={true}
+                                  smooth={true}>
                                 Contacts
                             </Link>
                         </li>
