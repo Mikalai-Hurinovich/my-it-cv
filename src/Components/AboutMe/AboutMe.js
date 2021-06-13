@@ -11,12 +11,13 @@ import HC from '../../assets/img/icons/aboutMe/HC.png'
 import ts from '../../assets/img/icons/aboutMe/TS.jpg'
 import sb from '../../assets/img/icons/aboutMe/sb.png'
 import axios from '../../assets/img/icons/aboutMe/axios.png'
+
 const AboutMe = () => {
     return (
         <div className={s.container} id={'skills'}>
             <Title title={'skills'}/>
             <div className={s.skills}>
-                <Skill title={'HTML&CSS'} icon={HC}/>
+                <Skill title={'HTML & CSS'} icon={HC}/>
                 <Skill title={'JavaScript'} icon={js}/>
                 <Skill title={'TypeScript'} icon={ts}/>
                 <Skill title={'React'} icon={react}/>
