@@ -11,17 +11,21 @@ const Header = () => {
                 <nav className={s.nav} id="nav">
                     <ul className={s.nav__items}>
                         <li>
-                            <Link activeClass={s.nav__link} to={'main'} spy={true} smooth={true}>
+                            <Link activeClass={s.nav__link}
+                                  to={'main'}
+                                  spy={true}
+                                  offset={-80}
+                                  smooth={true}>
                                 About Me
                             </Link>
                         </li>
                         <li>
-                            <Link activeClass={s.nav__link} to={'skills'} spy={true} smooth={true}>
+                            <Link activeClass={s.nav__link} to={'skills'} spy={true} offset={-80} smooth={true}>
                                 Skills
                             </Link>
                         </li>
                         <li>
-                            <Link activeClass={s.nav__link} to={'projects'} spy={true} smooth={true}>
+                            <Link activeClass={s.nav__link} to={'projects'} spy={true} offset={-80} smooth={true}>
                                 Projects
                             </Link>
                         </li>

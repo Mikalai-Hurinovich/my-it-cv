@@ -71,15 +71,15 @@ const Main = () => {
                 <Fade>
                     <div className={s.mainBlock__text}>
                         <span>Hi,</span>
-                        <h1>
+                        <h1>I'm Mikalai Hurynovich,</h1>
+                        <p>
                             <ReactTypingEffect
-                                text={'I\'m Mikalai Hurynovich'}
+                                text={'Frontend Developer'}
                                 speed={'100'}
                                 typingDelay={'1000'}
                                 eraseSpeed={'150'}>
                             </ReactTypingEffect>
-                        </h1>
-                        <p>Frontend Developer</p>
+                        </p>
                     </div>
                     <div className={s.location}>based in Minsk, Belarus</div>
                     <div className={s.button}>
