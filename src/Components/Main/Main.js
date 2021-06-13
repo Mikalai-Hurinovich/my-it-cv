@@ -5,6 +5,7 @@ import Button from "../../common/Components/Button/Button";
 import Particles from 'react-particles-js';
 import Fade from 'react-reveal/Fade';
 import ReactTypingEffect from 'react-typing-effect';
+import {Link} from "react-scroll";
 
 export const params = {
     "particles": {
@@ -83,7 +84,14 @@ const Main = () => {
                     </div>
                     <div className={s.location}>based in Minsk, Belarus</div>
                     <div className={s.button}>
-                        <Button title={'About Me'}/>
+                        <Link activeClass={s.nav__link}
+                              to={'skills'}
+                              spy={true}
+                              offset={-80}
+                              smooth={true}>
+                            <Button title={'About Me'}/>
+                        </Link>
+
                     </div>
                     <div className={s.scrollDown}>
                         <div className={s.chevrons}>
