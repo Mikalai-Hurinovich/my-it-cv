@@ -32,8 +32,7 @@ const Contacts = () => {
                 <Fade>
                     <form className={s.form} onSubmit={sendEmail}>
                         <input className={s.input} type="text" placeholder={'Name'} name={'name'}/>
-                        <input className={s.input} type="text" placeholder={'E-mail'} name={'email'}
-                               pattern='/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/'/>
+                        <input className={s.input} type="text" placeholder={'E-mail'} name={'email'}/>
                         <textarea className={s.textarea} placeholder={'Your message here...'}
                                   name={'message'}></textarea>
                         <button className={s.formButton} type={"submit"} title={'Send'}>
