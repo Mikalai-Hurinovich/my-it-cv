@@ -33,7 +33,7 @@ const Projects = () => {
                     <Project title={'Social Network'} style={socialNetwork}
                              technologies={'React/Redux/TypeScript/ReduxForm/Axios'}
                              description={'Social network. Invite friends. Communicate.'}
-                             link={'https://mikalai-hurinovich.github.io/ToDoList'}/>
+                             link={'https://mikalai-hurinovich.github.io/My-Social-Network/'}/>
                     <Project title={'Covid Dashboard'} style={covid} technologies={'HTML/CSS/JavaScript'}
                              description={'Covid dashboard, schedule of covid cases, deaths, recovered.'}
                              link={'https://rolling-scopes-school.github.io/mikalai-hurinovich-JS2020Q3/covid-dashboard/'}/>

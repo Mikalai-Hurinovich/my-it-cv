@@ -1,26 +1,51 @@
-import React from 'react';
+import React, {useState} from 'react';
 import s from './Contacts.module.scss'
 import Title from "../../common/Components/Title/Title";
 import Particles from "react-particles-js";
 import {params} from "../Main/Main";
 import Fade from "react-reveal/Fade";
+import emailjs from 'emailjs-com';
+import Modal from "../../common/Components/Modal/Modal";
 
 const Contacts = () => {
+    let [modalActive, setModalActive] = useState(true);
+
+    function sendEmail(e) {
+        e.preventDefault();
+        emailjs.sendForm('gmail', 'templateID', e.target, 'user_CDsquY5xRMwqej5QzlI0I')
+            .then(() => {
+                setModalActive(true);
+            }, (error) => {
+                console.log(error)
+            })
+            .finally(() => {
+                setTimeout(() => setModalActive(false), 4000)
+            })
+        e.target.reset()
+    }
+
     return (
-        <div className={s.container} id={'contacts'}>
-            <Particles className={s.particles} params={params}/>
-            <Title title={'my contacts'}/>
-            <Fade>
-                <form className={s.form}>
-                    <input className={s.input} type="text" placeholder={'Name'}/>
-                    <input className={s.input} type="text" placeholder={'E-mail'}/>
-                    <textarea className={s.textarea} placeholder={'Your message here...'}></textarea>
-                    <button className={s.formButton} type={"submit"} title={'Send'}>
-                        <a>Submit</a>
-                    </button>
-                </form>
-            </Fade>
-        </div>
+        <>
+            <div className={s.container} id={'contacts'}>
+                <Particles className={s.particles} params={params}/>
+                <Title title={'my contacts'}/>
+                <Fade>
+                    <form className={s.form} onSubmit={sendEmail}>
+                        <input className={s.input} type="text" placeholder={'Name'} name={'name'}/>
+                        <input className={s.input} type="text" placeholder={'E-mail'} name={'email'}
+                               pattern='/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/'/>
+                        <textarea className={s.textarea} placeholder={'Your message here...'}
+                                  name={'message'}></textarea>
+                        <button className={s.formButton} type={"submit"} title={'Send'}>
+                            <a>Submit</a>
+                        </button>
+                    </form>
+                </Fade>
+            </div>
+            <Modal active={modalActive} setActive={setModalActive}>
+                <p>Your message was successfully sent. Thanks!</p>
+            </Modal>
+        </>
     );
 };
 

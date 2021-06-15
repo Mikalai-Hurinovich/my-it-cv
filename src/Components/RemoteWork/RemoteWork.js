@@ -9,7 +9,7 @@ const RemoteWork = () => {
         <Fade>
             <div className={s.container}>
                 <Title title={'I\'m available for Freelance'}/>
-                <Button title={'Hire me!'}/>
+                <Button title={'Hire me!'} link={'https://t.me/NikolaTeslavich'}/>
             </div>
         </Fade>
     );
