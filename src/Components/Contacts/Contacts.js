@@ -8,7 +8,7 @@ import emailjs from 'emailjs-com';
 import Modal from "../../common/Components/Modal/Modal";
 
 const Contacts = () => {
-    let [modalActive, setModalActive] = useState(true);
+    let [modalActive, setModalActive] = useState(false);
 
     function sendEmail(e) {
         e.preventDefault();
@@ -31,10 +31,10 @@ const Contacts = () => {
                 <Title title={'my contacts'}/>
                 <Fade>
                     <form className={s.form} onSubmit={sendEmail}>
-                        <input className={s.input} type="text" placeholder={'Name'} name={'name'}/>
-                        <input className={s.input} type="text" placeholder={'E-mail'} name={'email'}/>
+                        <input className={s.input} type="text" placeholder={'Name'} name={'name'} required/>
+                        <input className={s.input} type="text" placeholder={'E-mail'} name={'email'} required/>
                         <textarea className={s.textarea} placeholder={'Your message here...'}
-                                  name={'message'}></textarea>
+                                  name={'message'} required></textarea>
                         <button className={s.formButton} type={"submit"} title={'Send'}>
                             <a>Submit</a>
                         </button>
